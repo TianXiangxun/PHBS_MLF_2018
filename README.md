@@ -21,7 +21,7 @@ Here is an example of our dataset:
 
 ![](./data1.png)
 
-The attributes contain information on the following:
+**The attributes contain information on the following:**
 
 * S：Sugi forest
 * h: Hinoki forest
@@ -38,4 +38,4 @@ The attributes contain information on the following:
 * Neural network
 * performance comparison
 
-**Please open our forrest.IPYNB file and find out how we did everything.**
+**Please open our forrest.IPYNB file and find out how we did everything!**
