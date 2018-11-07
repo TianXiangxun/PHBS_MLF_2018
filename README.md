@@ -31,7 +31,7 @@ Here is an example of our dataset:
 * pred_minus_obs_S_b1 - pred_minus_obs_S_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 's' class (b1-b9)
 * pred_minus_obs_H_b1 - pred_minus_obs_H_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 'h' class (b1-b9)		
 
-![](./data1.png)
+![](./woods.jpg)
 
 ## Our project approach:
 * Visualize the data with Seaborn
