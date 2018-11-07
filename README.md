@@ -31,11 +31,11 @@ The attributes contain information on the following:
 * pred_minus_obs_S_b1 - pred_minus_obs_S_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 's' class (b1-b9)
 * pred_minus_obs_H_b1 - pred_minus_obs_H_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 'h' class (b1-b9)		
 
-**Our project approach:**
-*Visualize the data with Seaborn
-*Feature selection / dimension reduction
-*Support Vector Machine
-*Neural network
-*performance comparison
+## Our project approach:
+* Visualize the data with Seaborn
+* Feature selection / dimension reduction
+* Support Vector Machine
+* Neural network
+* performance comparison
 
 **Please open our forrest.IPYNB file and find out how we did everything.**
