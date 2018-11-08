@@ -49,45 +49,53 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 ## Exploratory Data Analysis (EDA)
 We used Seaborn to understand the distribution of the data and the relationship between features.
 Since we are using more than 2 classes, we encoded the different tree types s, h, d, & o with 1, 2, 3, & 4.
-![](./1-seaborn.png)
+![](./Image/1.1.png)
 
 ## Principal Component Analysis (PCA)
 * We split the data and implemented PCA from sklearn plot the test dataset to see if it can separate the classes well. (Inner Works on Code)
 * The resulting plot indicates that the first principal component alone accounts for about 40% of variance.
-![](./2-explainedvariance.png)
+
+![](./Image/2.1.png)
+
 * After executing PCA, we can see in the resulting plot, the data is more spread along the x-axis,the first principal component,than the PC2, which is consistent with the explained variance ratio plot that we created above.
-![](./6-discriminabilityratio.png)
+
+![](./Image/2.2.png)
+
+![](./Image/pca3.png)
 
 ## LDA
 * We plot the linear discriminants Using LDA from sklearn. (Inner Works on Code)
-![](./7-transformeddata.png)
+
+![](./Image/LDA1.png)
+
+![](./Image/LDA2.png)
 
 * As we can see from the figure, the first three linear discriminants alone capture 100% of useful information in the dataset.
 * Using the transformation matrix, we transform the training dataset. 
 **Now the four forests classes are perfectly linearly separable.
-![](./3-PC1PC2.png)
+
 
 ## Implementing 6 Different Methods:
 * 1 LogisticRegression Model
-![](./4-PCAlogReg.png)
+![](./Image/model1.png)
 
 * 2 Perceptron
-![](./5-PCAlogregtest.png)
+![](./Image/model2.png)
 
 * 3 SVM_linear
-![](./6-discriminabilityratio.png)
+![](./Image/model3.png)
   
 * SVM_rbf
-![](./7-transformeddata.png)
+![](./Image/model4.png)
 
 * 4 KNN
-![](./.png)
+![](./Image/model5.png)
 
 * 5 Decision Tree
-![](./.png)
+![](./Image/model6.png)
 
 * 6 Random Forrest
-![](./.png)
+![](./Image/model7.png)
 
 ## Majority Voting
 
