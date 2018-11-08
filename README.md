@@ -61,7 +61,7 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 * Using the transformation matrix, we transform the training dataset. 
 **Now the four forests classes are perfectly linearly separable.
 
-## Analysis of 6 Different Methods:
+## Implementing 6 Different Methods:
 * 1 LogisticRegression Model
 ![](./.png)
 
