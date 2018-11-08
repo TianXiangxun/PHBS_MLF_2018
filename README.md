@@ -24,9 +24,10 @@ Here is an example of our dataset:
 **The attributes contain information on the following:**
 
 * S：Sugi forest
-* h: Hinoki forest
-* d: Mixed deciduous forest
-* o: Other non forest land
+* H: Hinoki forest
+* D: Mixed deciduous forest
+* O: Other non forest land
+
 * b1 - b9: ASTER image bands containing spectral information in the green, red, and near infrared wavelengths for three dates (Sept. 26, 2010; March 19, 2011; May 08, 2011.)
 * pred_minus_obs_S_b1 - pred_minus_obs_S_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 's' class (b1-b9)
 * pred_minus_obs_H_b1 - pred_minus_obs_H_b9: Predicted spectral values (based on spatial interpolation) minus actual spectral values for the 'h' class (b1-b9)		
@@ -64,18 +65,25 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 
 ## Analysis of 6 Different Methods:
 * 1 LogisticRegression Model
+![](./.png)
 
 * 2 Perceptron
+![](./.png)
 
 * 3 SVM_linear
+![](./.png)
   
 * SVM_rbf
+![](./.png)
 
 * 4 KNN
+![](./.png)
 
 * 5 Decision Tree
+![](./.png)
 
-** 6 Random Forrest
+* 6 Random Forrest
+![](./.png)
 
 ## Majority Voting
 
