@@ -52,30 +52,30 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 Since we are using more than 2 classes, we encoded the different tree types s, h, d, & o with 1, 2, 3, & 4.
 
 ## Principal Component Analysis (PCA)
-** We split the data and implemented PCA from sklearn plot the test dataset to see if it can separate the classes well. (Inner Works on Code)
-**The resulting plot indicates that the first principal component alone accounts for about 40% of variance.
-** After executing PCA, we can see in the resulting plot, the data is more spread along the x-axis,the first principal component,than the PC2, which is consistent with the explained variance ratio plot that we created above.
+* We split the data and implemented PCA from sklearn plot the test dataset to see if it can separate the classes well. (Inner Works on Code)
+* The resulting plot indicates that the first principal component alone accounts for about 40% of variance.
+* After executing PCA, we can see in the resulting plot, the data is more spread along the x-axis,the first principal component,than the PC2, which is consistent with the explained variance ratio plot that we created above.
 
 ## LDA
-** We plot the linear discriminants Using LDA from sklearn. (Inner Works on Code)
-** As we can see from the figure, the first three linear discriminants alone capture 100% of useful information in the dataset.
-** Using the transformation matrix, we transform the training dataset. 
+* We plot the linear discriminants Using LDA from sklearn. (Inner Works on Code)
+* As we can see from the figure, the first three linear discriminants alone capture 100% of useful information in the dataset.
+* Using the transformation matrix, we transform the training dataset. 
 **Now the four forests classes are perfectly linearly separable.
 
 ## Analysis of 6 Different Methods:
-**1 LogisticRegression Model
+* 1 LogisticRegression Model
 
-**2 Perceptron
+* 2 Perceptron
 
-**3 SVM_linear
+* 3 SVM_linear
   
-**SVM_rbf
+* SVM_rbf
 
-**4 KNN
+* 4 KNN
 
-**5 Decision Tree
+* 5 Decision Tree
 
-**6 Random Forrest
+** 6 Random Forrest
 
 ## Majority Voting
 
