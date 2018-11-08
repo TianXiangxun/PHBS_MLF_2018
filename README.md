@@ -87,5 +87,7 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 
 ## Majority Voting
 
+### KNN
+
 ## Reference
 Original Paper: Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted variables for image classification, remote sensing letters,Vol.3 No. 6
