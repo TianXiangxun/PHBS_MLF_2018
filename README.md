@@ -79,27 +79,46 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 * 1 LogisticRegression Model
 ![](./Image/model1.png)
 
+*Missclasified Samples: 51
+Accuracy: 0.675159
+
 * 2 Perceptron
 ![](./Image/model2.png)
+
+*Misclassified samples: 50
+Accuracy: 0.681529
 
 * 3 SVM_linear
 ![](./Image/model3.png)
   
-* SVM_rbf
+*Misclassified samples: 32
+Accuracy: 0.796178
+  
+* SVM_RBF
 ![](./Image/model4.png)
+
+Misclassified samples: 29
+Accuracy: 0.815287
 
 * 4 KNN
 ![](./Image/model5.png)
 
+*Misclassified samples: 28
+Accuracy: 0.821656
+
 * 5 Decision Tree
 ![](./Image/model6.png)
+
+*Misclassified samples: 34
+Accuracy: 0.783439
 
 * 6 Random Forrest
 ![](./Image/model7.png)
 
-## Majority Voting
+*Misclassified samples: 33
+Accuracy: 0.789809
 
-### KNN
+### KNN (Accuracy= 0.821656, K=5)
 
 ## Reference
 Original Paper: Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted variables for image classification, remote sensing letters,Vol.3 No. 6
