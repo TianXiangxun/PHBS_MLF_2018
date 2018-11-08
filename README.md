@@ -54,11 +54,14 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 ## Principal Component Analysis (PCA)
 * We split the data and implemented PCA from sklearn plot the test dataset to see if it can separate the classes well. (Inner Works on Code)
 * The resulting plot indicates that the first principal component alone accounts for about 40% of variance.
-* After executing PCA, we can see in the resulting plot, the data is more spread along the x-axis,the first principal component,than the PC2, which is consistent with the explained variance ratio plot that we created above.
 ![](./2-explainedvariance.png)
+* After executing PCA, we can see in the resulting plot, the data is more spread along the x-axis,the first principal component,than the PC2, which is consistent with the explained variance ratio plot that we created above.
+![](./6-discriminabilityratio.png)
 
 ## LDA
 * We plot the linear discriminants Using LDA from sklearn. (Inner Works on Code)
+![](./7-transformeddata.png)
+
 * As we can see from the figure, the first three linear discriminants alone capture 100% of useful information in the dataset.
 * Using the transformation matrix, we transform the training dataset. 
 **Now the four forests classes are perfectly linearly separable.
