@@ -20,8 +20,7 @@ This dataset contains 523 samples and 27 features from a remote sensing study wh
 Here is an example of our dataset:
 
 ![](./data1.png)
-Refference:
-Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted variables for image classification, remote sensing letters,Vol.3 No. 6
+
 
 **The attributes contain information on the following:**
 
@@ -36,6 +35,9 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 
 **A graphical representation:**
 ![](./woods.png)
+
+Refference:
+Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted variables for image classification, remote sensing letters,Vol.3 No. 6
 
 ## Our project approach:
 * Visualize the data with Seaborn
