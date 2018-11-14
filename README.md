@@ -137,14 +137,15 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 
 **Misclassified samples: 33 | Accuracy: 0.789809**
 
+* We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
+
+1. RF with 1, 30 and 70 max depth.
+
 ## Neural Network
 
 * The last thing we did is to train a Neural Network on the data.
 * The accuracy on the training set was 91% but we didn't do cross validation yet.
 * How ever, it is likely that cross validation would render us lower accuracy scores because it would reduce our training sample drastically while sample size is very important is not great for Neural Networks.
-
-*We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. RF with 1, 30 and 70 max depth.
 
 ### Our best accuracy was achieved KNN (Accuracy= 0.821656, K=5)
 ### We compare our accurracy rate with the one presented in the paper cited, we can appreciate that KNN yields a higher accuracy rate than SVM used in the research. However, it must be noted that the paper introduces a special IDE interpolation technique used by experts in ecology and forestry; when compared to this techinque the accurracy is lower. For further research it would be interesting to include IDE interpolation technique to KNN and other different methods to compare accurracy among. 
