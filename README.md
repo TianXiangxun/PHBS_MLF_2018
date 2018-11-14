@@ -19,7 +19,7 @@ Source: http://archive.ics.uci.edu/ml/datasets/Forest+type+mapping
 This dataset contains 523 samples and 27 features from a remote sensing study which mapped different forest types based on their spectral characteristics at visible-to-near infrared wavelengths, using ASTER satellite imagery of an area in Japan.
 Here is an example of our dataset:
 
-![](Image/data1.png)
+![](./data1.png)
 
 
 **The attributes contain information on the following:**
@@ -138,10 +138,10 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 33 | Accuracy: 0.789809**
 
 
-* 7 Neural Network
-The last thing we did is to train a Neural Network on the data.
-The accuracy on the training set was 91% but we didn't do cross validation yet.
-How ever, it is likely that cross validation would render us lower accuracy scores because it would reduce our training sample drastically while sample size is very important is not great for Neural Networks.
+** 7 Neural Network**
+* The last thing we did is to train a Neural Network on the data.
+* The accuracy on the training set was 91% but we didn't do cross validation yet.
+* How ever, it is likely that cross validation would render us lower accuracy scores because it would reduce our training sample drastically while sample size is very important is not great for Neural Networks.
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
 1. RF with 1, 30 and 70 max depth.
