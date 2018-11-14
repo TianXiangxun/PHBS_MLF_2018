@@ -19,7 +19,7 @@ Source: http://archive.ics.uci.edu/ml/datasets/Forest+type+mapping
 This dataset contains 523 samples and 27 features from a remote sensing study which mapped different forest types based on their spectral characteristics at visible-to-near infrared wavelengths, using ASTER satellite imagery of an area in Japan.
 Here is an example of our dataset:
 
-![](./data1.png)
+![](Image/data1.png)
 
 
 **The attributes contain information on the following:**
