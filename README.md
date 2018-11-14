@@ -43,7 +43,7 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 * Visualize the data with Seaborn
 * Feature selection / dimension reduction
 * LR, Perceptron, SVM Linear / RBF, KNN, Decision Tree, Random Forest  
-* Neural network*
+* Neural network
 * Performance comparison
 
 **Please open our forrest.IPYNB file and find out how we did everything!**
