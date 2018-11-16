@@ -47,9 +47,10 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 * Performance comparison
 
 **Please open our forrest.IPYNB file and find out how we did everything!**
-[MLF_FinalCode.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode%20-Without%20NN.ipynb)
 
-[MLF_FinalCode - Only Neural Network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
+* [MLF_FinalCode.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode%20-Without%20NN.ipynb)
+
+*[MLF_FinalCode - Only Neural Network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
 
 ## Exploratory Data Analysis (EDA)
 We used Seaborn to understand the distribution of the data and the relationship between features.
