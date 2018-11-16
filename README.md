@@ -158,7 +158,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 
 [MLF_FinalCode - Only Neural Network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
 
-### Our best accuracy was achieved KNN (Accuracy= 0.821656, K=5)
+### Before implementing Neural Network, our best accuracy was achieved KNN (Accuracy= 0.821656, K=5)
 ### We compare our accurracy rate with the one presented in the paper cited, we can appreciate that KNN yields a higher accuracy rate than SVM used in the research. However, it must be noted that the paper introduces a special IDE interpolation technique used by experts in ecology and forestry; when compared to this techinque the accurracy is lower. For further research it would be interesting to include IDE interpolation technique to KNN and other different methods to compare accurracy among. 
 
 ## Reference
