@@ -48,7 +48,8 @@ Johnson, B., Tateishi, R., and Xie, Z., 2012, Using geographically weighted vari
 
 **Please open our forrest.IPYNB file and find out how we did everything!**
 [MLF_FinalCode.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode%20-Without%20NN.ipynb)
-[MLF_FinalCode-only Neural network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
+
+[MLF_FinalCode - Only Neural Network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
 
 ## Exploratory Data Analysis (EDA)
 We used Seaborn to understand the distribution of the data and the relationship between features.
@@ -94,7 +95,7 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 **Misclassified samples: 50 | Accuracy: 0.681529**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. Perceptron with 1, 10 and 28, 30 and 80 iterations.
+1. [Perceptron](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Perceptron) with 1, 10 and 28, 30 and 80 iterations.
 Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.  
 
 * 3 SVM_linear
@@ -104,7 +105,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 32 | Accuracy: 0.796178**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. SVM with C of 0.001, 0.1 and 0.8.
+1. [SVM](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20SVM) with C of 0.001, 0.1 and 0.8.
   
 * SVM_RBF
 
@@ -113,7 +114,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 29 | Accuracy: 0.815287**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. SVMrf with Gamma values of 0.001, 0.1, 0.5 and 0.9 each one tested with C values of 1 and 10, respectively.
+1. [SVMrf](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20PSVMRF) with Gamma values of 0.001, 0.1, 0.5 and 0.9 each one tested with C values of 1 and 10, respectively.
 
 * 4 KNN
 
@@ -122,7 +123,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 28 | Accuracy: 0.821656**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. KNN with 1, 3 and 8 nearest neighbors.
+1. [KNN](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20KNN) with 1, 3 and 8 nearest neighbors.
 
 * 5 Decision Tree
 
@@ -131,9 +132,9 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 34 | Accuracy: 0.783439**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-1. DT with 1, 3 and 7 estimators.
+1. [Decision Tree](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Decision%20Tree) with 1, 3 and 7 estimators.
 
-* 6 Random Forrest
+* 6 Random Forest
 
 ![](./Image/model7.png)
 
@@ -141,13 +142,15 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 
 * We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
 
-1. RF with 1, 30 and 70 max depth.
+1. [Random Forests](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Random%20Forests) with 1, 30 and 70 max depth.
 
 ## Neural Network
 
 * The last thing we did is to train a Neural Network on the data.
 * The accuracy on the training set was 91% but we didn't do cross validation yet.
 * How ever, it is likely that cross validation would render us lower accuracy scores because it would reduce our training sample drastically while sample size is very important is not great for Neural Networks.
+
+[MLF_FinalCode - Only Neural Network.ipynb](https://github.com/TianXiangxun/PHBS_MLF_2018/blob/master/MLF_FinalCode-only%20Neural%20network.ipynb)
 
 ### Our best accuracy was achieved KNN (Accuracy= 0.821656, K=5)
 ### We compare our accurracy rate with the one presented in the paper cited, we can appreciate that KNN yields a higher accuracy rate than SVM used in the research. However, it must be noted that the paper introduces a special IDE interpolation technique used by experts in ecology and forestry; when compared to this techinque the accurracy is lower. For further research it would be interesting to include IDE interpolation technique to KNN and other different methods to compare accurracy among. 
