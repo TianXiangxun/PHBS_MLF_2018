@@ -96,7 +96,7 @@ Since we are using more than 2 classes, we encoded the different tree types s, h
 **Misclassified samples: 50 | Accuracy: 0.681529**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-2.1 [Perceptron](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Perceptron) with 1, 10 and 28, 30 and 80 iterations.
+*2.1 [Perceptron](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Perceptron) with 1, 10 and 28, 30 and 80 iterations.
 Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.  
 
 ## * 3 SVM_linear
@@ -106,7 +106,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 32 | Accuracy: 0.796178**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-3.1 [SVM](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20SVM) with C of 0.001, 0.1 and 0.8.
+*3.1 [SVM](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20SVM) with C of 0.001, 0.1 and 0.8.
   
 ## * 3.2 SVM_RBF
 
@@ -115,7 +115,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 29 | Accuracy: 0.815287**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-3.2.1 [SVMrf](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20PSVMRF) with Gamma values of 0.001, 0.1, 0.5 and 0.9 each one tested with C values of 1 and 10, respectively.
+*3.2.1 [SVMrf](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20PSVMRF) with Gamma values of 0.001, 0.1, 0.5 and 0.9 each one tested with C values of 1 and 10, respectively.
 
 ## * 4 KNN
 
@@ -124,7 +124,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 28 | Accuracy: 0.821656**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-4.1 [KNN](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20KNN) with 1, 3 and 8 nearest neighbors.
+*4.1 [KNN](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20KNN) with 1, 3 and 8 nearest neighbors.
 
 ## * 5 Decision Tree
 
@@ -133,7 +133,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 34 | Accuracy: 0.783439**
 
 *We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-5.1 [Decision Tree](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Decision%20Tree) with 1, 3 and 7 estimators.
+*5.1 [Decision Tree](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Decision%20Tree) with 1, 3 and 7 estimators.
 
 ## * 6 Random Forest
 
@@ -142,7 +142,7 @@ Perceptron with 28 iterations and eta of 0.001, 0.5 and 0.9.
 **Misclassified samples: 33 | Accuracy: 0.789809**
 
 * We introduce different interations in each model to show a more comprehensive undestanding of the model and its sensitivity to different arguments:
-6.1 [Random Forests](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Random%20Forests) with 1, 30 and 70 max depth.
+*6.1 [Random Forests](https://github.com/TianXiangxun/PHBS_MLF_2018/tree/master/1.%20Random%20Forests) with 1, 30 and 70 max depth.
 
 ## Neural Network
 
